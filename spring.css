@@ -1,0 +1,66 @@
+        .main h2 {
+          color: #494858;
+          padding-left: 150px;
+          transition: all .75s ease-in .2s;
+          
+        }
+        h2:hover {
+          color: pink;
+        }
+        .box {
+          padding-left: 370px;
+          animation: change 6s;
+        }
+
+        @keyframes change {
+          0% {
+            opacity: 0;
+          }
+          25% {
+            opacity: 1;
+          }
+         }
+
+        .support ul{
+          display: inline;
+        }
+        li {
+          display: inline;
+          padding-left: 35px;
+          margin-left: 220px;
+          font-weight: 100;
+          color: #494858;
+          font-size: 9px;
+        }
+        .last img {
+          width: 50%;
+          height: 50%;
+          padding-left: 365px;
+          
+          animation: change 6s;
+        }
+
+        .table {
+          padding-left: 540px;
+          padding-top: 100px;
+        }
+        .form {
+          padding-left: 530px;
+          padding-top: 100px;
+        
+        }
+        #join {
+          font-weight: 100;
+          padding-left: 150px;
+        }
+        .table h3 {
+          font-weight: 100;
+        }
+        table {
+          border: 1px dotted gray;
+          border-radius: 20px;
+          padding: 50px;
+        }
+        tbody tr {
+          text-align: center;
+        }
